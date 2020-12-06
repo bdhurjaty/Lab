@@ -1,7 +1,9 @@
 import os
 
-upath = input('give a path : ')
-print(os.walk(upath))
-for r,d,f in os.walk(upath):
-    for x in f:
-        print(x)
+userpath = input("enter ur path: ")
+
+if os.path.isfile(userpath):
+    print("given is a file")
+elif:
+    os.path.isdir(userpath):
+    print("given is a dir")
