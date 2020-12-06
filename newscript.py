@@ -1,2 +1,2 @@
-import module
-print(module.list)
+import mymodule
+print(mymodule.list)
