@@ -1,3 +1,9 @@
-list=[1,2,3,4,5]
+y=input('give a number between 1-3: ')
+x=int(y)
 
-print(list.reverse())
+if x == 1:
+    print('one')
+elif x == 2:
+    print('two')
+else:
+    print('three')
